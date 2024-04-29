@@ -121,9 +121,9 @@ handle.Complete();
 - 分成多个 batch 并行执行。示例中Length // 100 个batch.
 - batchsize选择？不大不小，否则影响性能。
 
-:::image type="content" source="pictures/1_jobs_1.png" alt-text="使用8核":::
+:::image type="content" source="./pictures/1_jobs_1.png" alt-text="使用8核":::
 
-:::image type="content" source="pictures/1_jobs_2.png" alt-text="使用1核":::
+:::image type="content" source="./pictures/1_jobs_2.png" alt-text="使用1核":::
 
 - 多核版占用所有CPU核心，在执行期间CPU干不了其他事情，消耗更多。单核用了相同时间做了核相同事情，如何解释？
 - 这个函数实际计算量小，真正的bottleneck是 memory access，job分给多核也只能等待内存读写，跟单核一样，反而多占用了cpu时间。
