@@ -15,8 +15,9 @@
 ![Beach Ball Simulator game screenshot](./pictures/1_ball_game.png)
 ![DOD vs OOP data access](./pictures/1_oop_vs_dod.png)
 
-OOP: 遍历所有Sphere类，设置颜色是绿色的Sphere的位置。即使存放Sphere的数组是连续数据，但是其中存的实际上是Sphere对象的引用，Sphere对象数据实际散布在内存中，这样遍历时会导致更多的cache misses.
-DOD: Sphere分解冲Color组件和Position组件，并各自组成buffer，这样cache missg更少处理更快。
+**OOP**: 遍历所有Sphere类，设置颜色是绿色的Sphere的位置。即使存放Sphere的数组是连续数据，但是其中存的实际上是Sphere对象的引用，Sphere对象数据实际散布在内存中，这样遍历时会导致更多的cache misses.
+
+**DOD**: Sphere分解成Color组件和Position组件，并各自组成buffer，这样cache missg更少处理更快。
 
 ## 2. 学习资料
 
