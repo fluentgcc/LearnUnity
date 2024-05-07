@@ -33,9 +33,24 @@ DOD: Sphere分解冲Color组件和Position组件，并各自组成buffer，这�
 
 [unity learn](https://learn.unity.com/tutorial/part-1-understand-data-oriented-design)
 
-### Unity的 DOD packages
+### 进阶阅读
 
 [unity learn](https://learn.unity.com/tutorial/part-1-understand-data-oriented-design)
+
+### Unity的 DOD packages
+
+技术栈：
+
+- [Collections](https://docs.unity3d.com/Packages/com.unity.collections@latest)
+- [Job System](https://docs.unity3d.com/Manual/JobSystem.html)
+- [Burst](https://docs.unity3d.com/Packages/com.unity.burst@latest)
+- [Entities](https://docs.unity3d.com/Packages/com.unity.entities@latest)
+- [Entities Graphics](https://docs.unity3d.com/Packages/com.unity.entities.graphics@latest)
+
+示例：
+
+- [ECS Samples repository](https://github.com/Unity-Technologies/EntityComponentSystemSamples)
+
 
 ## 3. Key Principles
 

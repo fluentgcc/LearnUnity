@@ -1,3 +1,3 @@
-# DOTS best practices
+# DOTS bootcamp
 
-[unity learn](https://learn.unity.com/course/dots-best-practices)
+[DOTS bootcamp](https://learn.unity.com/tutorial/dots-bootcamp)
