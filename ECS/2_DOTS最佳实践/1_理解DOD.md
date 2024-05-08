@@ -52,7 +52,6 @@
 
 - [ECS Samples repository](https://github.com/Unity-Technologies/EntityComponentSystemSamples)
 
-
 ## 3. Key Principles
 
 - **Design before you code.** 写代码前先设计。先设计好需要哪些数据、数据格式和分组如何组织，能够使CPU最有效访问数据。设计好System应该怎样transform data.
