@@ -100,7 +100,7 @@ public struct Movement : IComponentData
 - 为能通过id查找实体， EntityManager 维护一个entity metadata的array。
 - entity metadata 一个Chunk指针，一个index, 一个Version number。
 
-**Query** : efficiently find all entities with a specified set of componeent types
+**Query** : efficiently find all entities with a specified set of component types。Query会查找所有符合条件的组件，如查包含A和B，则含ABC三种的也会在查询结果中。
 
 ### 可以访问 entities 的jobs
 

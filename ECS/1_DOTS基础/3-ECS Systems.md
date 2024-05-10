@@ -106,7 +106,7 @@ SystemState本身也有下面方法查询实体、获取组件句柄。
 - GetEntityQuery()
 - GetComponentTypeHandle\<T\>()
 
-注意：**永远只通过SystemStatel来获取queries和component type handles，而不是EntityManager**
+注意：**永远只通过SystemState来获取queries和component type handles，而不是EntityManager**
 因为: SystemState’s methods register component types with the system. 如果直接用EntityManager则无法注册。
 
 注册有啥作用？
