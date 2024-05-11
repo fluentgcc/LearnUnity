@@ -9,7 +9,7 @@ UnityEngine.GameObjet
 - C# 类
 - UnityEngine.Component实例的容器
 - 总带一个 Transform component
-- 可以是其他GameObject的chid
+- 可以是其他GameObject的child
 
 UnityEngine.Component
 

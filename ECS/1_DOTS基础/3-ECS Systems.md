@@ -11,7 +11,7 @@ public partial struct MySystem : ISystem
     [BurstCompile]
     public void OnCreate(ref SystemState state)
     {
-        // on create. 第一次updata之前，会调用。
+        // on create. 第一次update之前，会调用。
     }
     
     [BurstCompile]
